@@ -6,6 +6,7 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
+
         String[] str = {"aa", "bb", "cc", "aa", "bb", "dd"};
 
         Set<String> stringSet = new HashSet<>(Arrays.asList(str));
